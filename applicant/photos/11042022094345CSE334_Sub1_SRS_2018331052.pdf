@@ -1,0 +1,31 @@
+--Features with descriptions--
+
+1.Searching for a job
+-->
+
+2.Posting a job
+-->Details of a job
+
+3.Company Profile
+-->
+
+4.User Profile
+-->
+
+5.Admin Dashboard/Profile
+-->
+
+
+--Interactions amomng features--
+-->user and admin er moddhe connections gula ekhane thakbe.
+
+
+--Technologies--
+Front-end: HTML , CSS , Javascript
+Front -end framework: Bootstrap, JQuery
+Backend: PHP
+Database: MYSQL
+Platform: Localhost, XAMPP(Apache, MySQL)
+
+
+
