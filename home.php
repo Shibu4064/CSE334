@@ -76,7 +76,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-title text-center">
-            <h2 >Popular Jobs</h2>
+            <h2>Popular Jobs</h2>
           </div>
         </div>
       </div>
