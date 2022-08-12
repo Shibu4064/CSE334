@@ -5,14 +5,19 @@ include('includes/navbar.php');
 ?>
     <!-- Start your project here-->
     <div class="container">
-      <br>
-      <br>
-      
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5"><br>
         <h1 class="text-center mt-3 text-info">All Blogs</h1>
         <div class="row mt-4">
         <?php
            require 'blogpage/dbconfig.php';
+
+
+
+
+
+
+
+           
            $query="SELECT * FROM blog";
            $query_run=mysqli_query($connection,$query);
            $check_faculty=mysqli_num_rows($query_run)>0;
@@ -22,19 +27,19 @@ include('includes/navbar.php');
               while($row=mysqli_fetch_array($query_run))
               {
                 ?>
-                 <div class="col-md-4 mt-3">
+                 <div class="col-md-3 mt-3">
                   <div class="card">
-                  <img src="blogpage/upload/<?php  echo $row['images']; ?>" class="card-img-top" width="250px" height="350px" alt="">
+                  <img src="blogpage/upload/<?php  echo $row['images']; ?>" class="card-img-top" width="250px" height="250px" alt="">
                     <div class="card-body">
                         <h5 class="card-title text-primary"> <?php echo $row['name'];  ?> </h5>
                         <p class="card-title"> <?php echo $row['date'];  ?> </p>
-                        
-                        <?php 
+                        <button class="btn btn-outline-info" style="height: 50px;">
+                        <?php
 
-                          echo '<a href="readblog.php?id='. $row['id'] .'" class="mr-3" title="View Record" data-toggle="tooltip"><p style="font-size:20px;color:black;">READ</p></a>';
+                        echo '<a style="text-decoration:none"; href="readblog.php?id='. $row['id'] .'" class="mr-3" title="View Record" data-toggle="tooltip"><p style="font-size:20px;color:black;">READ</p></a>';
 
                            ?>
-
+                        </button>
                     </div>
                 </div>
             </div>

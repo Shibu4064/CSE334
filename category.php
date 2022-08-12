@@ -22,6 +22,13 @@
      $category = '';
 
  }
+
+
+
+
+
+
+ 
    $sql = "SELECT * FROM `tblcompany` c,`tbljob` j WHERE c.`COMPANYID`=j.`COMPANYID` AND CATEGORY LIKE '%" . $category ."%' ORDER BY DATEPOSTED DESC" ;
     $mydb->setQuery($sql);
     $cur = $mydb->loadResultList();

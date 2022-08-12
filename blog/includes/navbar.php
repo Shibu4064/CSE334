@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand text-danger" href="\eris\index.php">Job Portal</a>
+    <a class="navbar-brand" style="color: #1891EC;" href="\eris\index.php">Job Portal</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,13 +12,8 @@
         <li class="nav-item">
           <a class="nav-link" href="blogs.php">Blogs</a>
         </li>
-        
-
       </ul>
-    
       <div class="d-flex align-items-center">
-
-      
 
       <?php if(isset($_SESSION['auth_user']))  : ?>
       <div class="dropdown">
@@ -44,7 +39,7 @@
       </div>
       <?php  else :   ?>
       <li class="nav-item">
-          <a class="nav-link" href="login.php">Join Now</a>
+          <a class="nav-link" href="login.php" target=“_blank”>Create Blog</a>
         </li>
     </div>
     <?php endif;  ?>

@@ -9,6 +9,13 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
     // Include config file
     require_once "dbconfig.php";
     
+
+
+
+
+
+
+    
     // Prepare a select statement
     $sql = "SELECT * FROM blog WHERE id = ?";
     

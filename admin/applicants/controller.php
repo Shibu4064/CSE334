@@ -61,9 +61,11 @@ switch ($action) {
 			redirect("index.php?view=add");
 
 			}else{
-			 
 
-
+        
+		
+		
+		
 				$sql = "SELECT * FROM tblemployees WHERE EMPLOYEEID='" .$_POST['EMPLOYEEID']. "'";
 				$mydb->setQuery($sql);
 				$cur = $mydb->executeQuery();
@@ -103,8 +105,6 @@ switch ($action) {
 					$emp->create(); 
 
 
-				 
-							
 						$autonum = New Autonumber(); 
 						$autonum->auto_update('employeeid');
 
@@ -112,7 +112,6 @@ switch ($action) {
 					redirect("index.php");
 
 				}
-				
 			}
 		 }
 		}
@@ -128,7 +127,7 @@ switch ($action) {
 			$messageStats = false;
 			message("All fields are required!","error");
 			redirect('index.php?view=add');
-		}else{	
+		}else{
 
 			$birthdate =  $_POST['year'].'-'.$_POST['month'].'-'.$_POST['day'];
 
@@ -276,6 +275,10 @@ global $mydb;
 		$applicantid = $_POST['APPLICANTID'];
 
 		$remarks = $_POST['REMARKS'];
+
+
+
+
 		$sql="UPDATE `tbljobregistration` SET `REMARKS`='{$remarks}',PENDINGAPPLICATION=0,HVIEW=0,DATETIMEAPPROVED=NOW() WHERE `REGISTRATIONID`='{$id}'";
 		$mydb->setQuery($sql);
 		$cur = $mydb->executeQuery();

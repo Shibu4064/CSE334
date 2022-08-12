@@ -52,6 +52,12 @@
       </div>
     </div>
 
+
+
+
+
+
+
     <?php
       $sql = "SELECT * FROM `tblcompany`";
       $mydb->setQuery($sql);
@@ -76,12 +82,19 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-title text-center">
-            <h2>Popular Jobs</h2>
+            <h2 >Popular Jobs</h2>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12 ">
+
+
+
+
+
+
+        
           <?php
             $sql = "SELECT * FROM `tblcategory`";
             $mydb->setQuery($sql);
@@ -97,14 +110,8 @@
     </div>
   </section>
 
-
-
-
-
-
 <!-- blog -->
 
-  
     <section class="ftco-section bg-light">
       <div class="section-title text-center">
             <h2 >Popular Blogs</h2>
@@ -116,12 +123,9 @@
               <a href=""><img src="images/image_1.jpg" style="width:250px;height: 250px;"></a>
               <div class="text mt-3">
                 <div class="meta mb-2">
-                  
                 <div><p>Admin</p></div>
-                  
                 </div>
-                <h3 class="heading"><a href="#" style="text-decoration:none;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-               
+                <h3 class="heading"><a href="#" style="text-decoration:none;font-size: 15px;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
               </div>
             </div>
           </div>
@@ -130,12 +134,9 @@
               <a href=""><img src="images/image_2.jpg" style="width:250px;height: 250px;"></a>
               <div class="text mt-3">
                 <div class="meta mb-2">
-                  
                   <div><p>Admin</p></div>
-                 
                 </div>
-                <h3 class="heading"><a href="#" style="text-decoration:none;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-               
+                <h3 class="heading"><a href="#" style="text-decoration:none; font-size: 15px;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
               </div>
             </div>
           </div>
@@ -144,12 +145,9 @@
               <a href=""><img src="images/image_3.jpg" style="width:250px;height: 250px;"></a>
               <div class="text mt-3">
                 <div class="meta mb-2">
-                  
                   <div><p>Admin</p></div>
-                  
                 </div>
-                <h3 class="heading"><a href="#" style="text-decoration:none;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-               
+                <h3 class="heading"><a href="#" style="text-decoration:none;font-size: 15px;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
               </div>
             </div>
           </div>
@@ -158,16 +156,12 @@
               <a href=""><img src="images/image_4.jpg" style="width:250px;height: 250px;"></a>
               <div class="text mt-3">
                 <div class="meta mb-2">
-                  
                   <div><p>Admin</p></div>
-                  
                 </div>
-                <h3 class="heading"><a href="#" style="text-decoration:none;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-               
+                <h3 class="heading"><a href="#" style="text-decoration:none;font-size: 15px;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
       <a href="blog/blogs.php" style="text-decoration:none;"><p style="text-align:center;color:purple;font-size: 25px;"><b>See All</b></p></a>
