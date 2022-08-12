@@ -97,6 +97,97 @@
     </div>
   </section>
 
+
+
+
+
+
+<!-- blog -->
+
+  
+    <section class="ftco-section bg-light">
+      <div class="section-title text-center">
+            <h2 >Popular Blogs</h2>
+      </div>
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href=""><img src="images/image_1.jpg" style="width:250px;height: 250px;"></a>
+              <div class="text mt-3">
+                <div class="meta mb-2">
+                  
+                <div><p>Admin</p></div>
+                  
+                </div>
+                <h3 class="heading"><a href="#" style="text-decoration:none;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href=""><img src="images/image_2.jpg" style="width:250px;height: 250px;"></a>
+              <div class="text mt-3">
+                <div class="meta mb-2">
+                  
+                  <div><p>Admin</p></div>
+                 
+                </div>
+                <h3 class="heading"><a href="#" style="text-decoration:none;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href=""><img src="images/image_3.jpg" style="width:250px;height: 250px;"></a>
+              <div class="text mt-3">
+                <div class="meta mb-2">
+                  
+                  <div><p>Admin</p></div>
+                  
+                </div>
+                <h3 class="heading"><a href="#" style="text-decoration:none;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href=""><img src="images/image_4.jpg" style="width:250px;height: 250px;"></a>
+              <div class="text mt-3">
+                <div class="meta mb-2">
+                  
+                  <div><p>Admin</p></div>
+                  
+                </div>
+                <h3 class="heading"><a href="#" style="text-decoration:none;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+               
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <a href="blog/blogs.php" style="text-decoration:none;"><p style="text-align:center;color:purple;font-size: 25px;"><b>See All</b></p></a>
+      <br>
+      <br>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <section id="content-3-10" class="content-block data-section nopad content-3-10">
   <div class="image-container col-sm-6 col-xs-12 pull-left">
     <div class="background-image-holder">
